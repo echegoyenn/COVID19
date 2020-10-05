@@ -11,6 +11,7 @@ TABLA ISR: SHCP
 
 
 ------Salario mínimo real disponible MX-------
+
 Primero calculamos el salario mínimo mensual reportado en la encuesta que es de $3746 mxn, después multiplicamos la cantidad de personas que ganan n salarios mínimos mensuales por el nivel de salario mínimo mensual reportado usando una como ejemplo una función PQ, donde Q es la cantidad de personas y P el nivel de salario mínimo mensual reportado en la ETOE.
 
 El siguiente paso es hacer disponible el salario por bracket mediante la tabla de ISR mensual de la SHCP. Con esto tenemos un salario mínimo mensual disponible
@@ -20,6 +21,7 @@ Como bien sabemos para hacer una variable real necesita quitarse de la inflació
 A continuación pasamos agruparlo en brackets de 1 a +5 salarios mínimos mensuales y realizamos la gráfica y observaremos la caída y ascenso de los salarios mínimos por bracket laboral.
 
 --------------Real disposable personal income MXN-USD--------
+
 Teniendo los datos anteriores podemos sacar una media por periodo, olvidando el bracket al que pertenezcan y de esta forma los ingresos serán de la nación.
 
 El siguiente paso es comparar con los datos de la FRED del mismo periodo mar-jun expresado en billions usd. Al hacer una comparación internacional necesitamos que las cifras sean equivalentes en moneda y terminología científica por lo que tendríamos que dividir los datos de FRED para hacerlos en miles de millones (NO CONVERTIR A MXN).
